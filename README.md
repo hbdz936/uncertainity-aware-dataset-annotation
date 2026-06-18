@@ -25,7 +25,7 @@ Sample **two independent models** and pool their votes. When they disagree on th
 ## Architecture
 
 <p align="center">
-  <img src="assets/architecture.png" width="900"/>
+  <img src="assets/architecture_diagram.png" width="900"/>
 </p>
 
 ## Key Files
