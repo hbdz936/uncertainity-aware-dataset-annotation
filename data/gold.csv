@@ -1,0 +1,16 @@
+id,text,gold_label
+1,"Battery lasts barely 4 hours, way short of the advertised 10.",negative
+4,Customer support ignored three emails before I gave up.,negative
+7,"Crashed twice during setup, had to factory reset.",negative
+10,"Returned it after a week, build quality felt cheap.",negative
+13,"Stopped charging after two weeks, total waste of money.",negative
+16,"Customer service resolved my issue within an hour, great experience.",positive
+19,"Completely broke on day one, requesting a refund.",negative
+22,"Does the job, no surprises good or bad.",neutral
+25,"Decent enough, I'll probably buy the upgraded version next.",neutral
+28,"It's neither good nor bad, just exists.",neutral
+31,Works fine on wifi but constantly drops on mobile data.,negative
+34,The subscription auto-renewed without any warning email.,negative
+37,Support chat just looped me through the same three questions.,negative
+40,"Screen cracked from a minor drop, fragile material.",negative
+43,"Refund process took over a month, very frustrating.",negative

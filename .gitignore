@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+
+# data outputs (optional strategy below)
+data/runs.db
+
+# environment secrets
+.env
+
+# OS / editor
+.vscode/
+.DS_Store

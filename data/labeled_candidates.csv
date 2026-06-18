@@ -1,0 +1,46 @@
+id,text,predicted_label,confidence,uncertainty,model_a,model_a_label,model_a_votes,model_b,model_b_label,model_b_votes,cross_model_disagree,cost_usd
+6,"Arrived on time, packaging was okay, no complaints really.",positive,0.5,1.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,neutral,neutral|neutral|neutral,1,0.000265
+42,"Fine for casual use, wouldn't trust it for anything critical.",neutral,0.5,1.0,llama-3.3-70b-versatile,neutral,neutral|neutral|neutral,llama-3.1-8b-instant,negative,negative|negative|negative,1,0.000265
+25,"Decent enough, I'll probably buy the upgraded version next.",positive,0.5,1.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,neutral,neutral|neutral|neutral,1,0.000265
+15,Instructions were unclear but I figured it out eventually.,neutral,0.667,0.918,llama-3.3-70b-versatile,neutral,neutral|neutral|neutral,llama-3.1-8b-instant,negative,negative|negative|neutral,1,0.00026
+32,"Solid build, nothing flashy, gets the job done.",positive,0.667,0.918,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,neutral,neutral|positive|neutral,1,0.000262
+31,Works fine on wifi but constantly drops on mobile data.,negative,0.833,0.65,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|neutral|negative,0,0.000262
+5,The camera quality on this is shockingly good for the price.,positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.000265
+8,"Best purchase I've made this year, recommend to everyone.",positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.000263
+7,"Crashed twice during setup, had to factory reset.",negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.000262
+2,Setup took two minutes and it just worked. Genuinely impressed.,positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.000267
+3,"It's fine. Does what it says, nothing more.",neutral,1.0,0.0,llama-3.3-70b-versatile,neutral,neutral|neutral|neutral,llama-3.1-8b-instant,neutral,neutral|neutral|neutral,0,0.000263
+4,Customer support ignored three emails before I gave up.,negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.00026
+1,"Battery lasts barely 4 hours, way short of the advertised 10.",negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.000269
+13,"Stopped charging after two weeks, total waste of money.",negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.000262
+12,"Average product, similar to others in this price range.",neutral,1.0,0.0,llama-3.3-70b-versatile,neutral,neutral|neutral|neutral,llama-3.1-8b-instant,neutral,neutral|neutral|neutral,0,0.000262
+11,"Five stars, exceeded what I expected at this price point.",positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.000263
+10,"Returned it after a week, build quality felt cheap.",negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.000262
+9,"It works as described, but the app UI feels dated.",neutral,1.0,0.0,llama-3.3-70b-versatile,neutral,neutral|neutral|neutral,llama-3.1-8b-instant,neutral,neutral|neutral|neutral,0,0.000263
+18,"It's okay for the price, wouldn't pay more than this.",neutral,1.0,0.0,llama-3.3-70b-versatile,neutral,neutral|neutral|neutral,llama-3.1-8b-instant,neutral,neutral|neutral|neutral,0,0.000267
+16,"Customer service resolved my issue within an hour, great experience.",positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.000263
+14,"Sound quality is incredible, bass is deep without distortion.",positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.000261
+21,Delivery took three weeks longer than promised.,negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.000256
+22,"Does the job, no surprises good or bad.",neutral,1.0,0.0,llama-3.3-70b-versatile,neutral,neutral|neutral|neutral,llama-3.1-8b-instant,neutral,neutral|neutral|neutral,0,0.00026
+23,The interface is so intuitive my parents figured it out instantly.,positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.000263
+24,Smells strongly of chemicals straight out of the box.,negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.000262
+26,This app drains my battery faster than any other app I own.,negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.000265
+19,"Completely broke on day one, requesting a refund.",negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.000262
+20,"Love how lightweight it is, perfect for travel.",positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.00026
+17,The fabric started fraying after just two washes.,negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.000262
+29,My order arrived damaged and missing parts.,negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.000256
+28,"It's neither good nor bad, just exists.",neutral,1.0,0.0,llama-3.3-70b-versatile,neutral,neutral|neutral|neutral,llama-3.1-8b-instant,neutral,neutral|neutral|neutral,0,0.00026
+27,"Incredible value, didn't expect this quality at this price.",positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.000265
+30,The customer onboarding flow is the smoothest I've seen.,positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.000265
+34,The subscription auto-renewed without any warning email.,negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.000262
+35,"Looks exactly like the photos, happy with the purchase.",positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.000262
+36,"Mediocre, wouldn't actively recommend but wouldn't warn against it either.",neutral,1.0,0.0,llama-3.3-70b-versatile,neutral,neutral|neutral|neutral,llama-3.1-8b-instant,neutral,neutral|neutral|neutral,0,0.000271
+33,"I've recommended this to three friends already, that good.",positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.000263
+37,Support chat just looped me through the same three questions.,negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.000263
+38,"Genuinely the best headphones I've owned, worth every rupee.",positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.000269
+40,"Screen cracked from a minor drop, fragile material.",negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.00026
+39,"It's a standard option, comparable to competitors.",neutral,1.0,0.0,llama-3.3-70b-versatile,neutral,neutral|neutral|neutral,llama-3.1-8b-instant,neutral,neutral|neutral|neutral,0,0.00026
+41,"Setup wizard walked me through everything, zero confusion.",positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.00026
+43,"Refund process took over a month, very frustrating.",negative,1.0,0.0,llama-3.3-70b-versatile,negative,negative|negative|negative,llama-3.1-8b-instant,negative,negative|negative|negative,0,0.000262
+44,"Exceeded expectations, the build quality feels premium.",positive,1.0,0.0,llama-3.3-70b-versatile,positive,positive|positive|positive,llama-3.1-8b-instant,positive,positive|positive|positive,0,0.00026
+45,"Just an average experience overall, nothing memorable.",neutral,1.0,0.0,llama-3.3-70b-versatile,neutral,neutral|neutral|neutral,llama-3.1-8b-instant,neutral,neutral|neutral|neutral,0,0.000258

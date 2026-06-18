@@ -1,0 +1,6 @@
+id,text,predicted_label,final_label,was_edited,review_time_seconds
+6,"Arrived on time, packaging was okay, no complaints really.",positive,positive,False,7.0
+42,"Fine for casual use, wouldn't trust it for anything critical.",neutral,neutral,False,6.1
+25,"Decent enough, I'll probably buy the upgraded version next.",positive,positive,False,1.9
+15,Instructions were unclear but I figured it out eventually.,neutral,neutral,False,1.5
+32,"Solid build, nothing flashy, gets the job done.",positive,positive,False,2.0
