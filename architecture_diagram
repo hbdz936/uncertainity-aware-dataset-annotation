@@ -1,0 +1,33 @@
+digraph ActiveLearningSystem {
+	A [label="Input CSV
+(input.csv)"]
+	B [label="Model A
+(Groq 70B)"]
+	C [label="Model B
+(Llama 8B)"]
+	D [label="Self-Consistency
+(k=3 sampling each)"]
+	E [label="Vote Aggregation
+(Pooled Distribution)"]
+	F [label="Uncertainty Estimation
+Entropy + Disagreement"]
+	G [label="Labeled Candidates
+(Sorted by uncertainty)"]
+	H [label="Human Review
+(Streamlit UI)"]
+	I [label="Final Labels
+(gold.csv / final_labels.csv)"]
+	J [label="Evaluation + Retraining
+(F1 + model update)"]
+	A -> B
+	A -> C
+	B -> D
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+	H -> I
+	I -> J
+	J -> B [label="retrain loop"]
+}

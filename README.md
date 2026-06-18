@@ -24,7 +24,9 @@ Sample **two independent models** and pool their votes. When they disagree on th
 
 ## Architecture
 
-**Input CSV** → **Model A (70B) + Model B (8B)** [k=3 self-consistency each] → **Uncertainty Estimation** (entropy + cross-model disagreement) → **Labeled Candidates** (sorted by uncertainty) → **Human Review** (high uncertainty only) → **Final Labels** → **Evaluate & Retrain**
+<p align="center">
+  <img src="assets/architecture.png" width="900"/>
+</p>
 
 ## Key Files
 
