@@ -51,7 +51,7 @@ Cross-model pooling: **Catches systematic bias** (model confidently wrong due to
 - **Database**: SQLite for run tracking (cost, disagreements, metrics)
 
 ## Project Structure
-
+```
 ├── core/
 │   ├── llm_client.py            # Groq API wrapper
 │   ├── uncertainty.py           # Entropy + disagreement
@@ -73,7 +73,7 @@ Cross-model pooling: **Catches systematic bias** (model confidently wrong due to
 
 └── tests/
     └── test_uncertainty.py
-
+```
 ## Limitations & Future Work
 
 - **Same-family bias**: Both models are Llama-based; may share correlated biases
