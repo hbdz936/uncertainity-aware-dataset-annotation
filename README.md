@@ -21,26 +21,6 @@ Sample **two independent models** and pool their votes. When they disagree on th
 - **6 rows** routed to human review
 - **5/5** cross-model disagreements caught
 - **3/3** systematic errors detected
-- **Cost**: $0.0118 total (~$0.0003/row on Groq)
-
-## Quick Start
-
-```bash
-# Setup
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-echo "GROQ_API_KEY=your_key" > .env
-
-# Label with cross-model sampling
-python scripts/label_batch.py --input data/input.csv --out data/labeled_candidates.csv --labels positive,negative,neutral
-
-# Review flagged rows
-streamlit run ui/annotator_app.py
-
-# Evaluate
-python scripts/evaluate.py --gold data/gold.csv --pred data/final_labels.csv
-```
 
 ## Architecture
 
@@ -68,43 +48,31 @@ Cross-model pooling: **Catches systematic bias** (model confidently wrong due to
 - **Self-consistency**: k=3 samples per model, temperature=0.7
 - **Models**: llama-3.3-70b-versatile (Model A), llama-3.1-8b-instant (Model B)
 - **Uncertainty metric**: Normalized Shannon entropy of pooled votes
-- **Cost**: $0.0003/row (6 API calls on Groq)
 - **Database**: SQLite for run tracking (cost, disagreements, metrics)
 
 ## Project Structure
+
 ├── core/
-
-│   ├── llm_client.py        # Groq API wrapper
-
-│   ├── uncertainty.py       # Entropy + disagreement
-
-│   └── prompt_templates.py  # Classification prompts
+│   ├── llm_client.py            # Groq API wrapper
+│   ├── uncertainty.py           # Entropy + disagreement
+│   └── prompt_templates.py     # Classification prompts
 
 ├── scripts/
-
-│   ├── label_batch.py       # Main labeling pipeline
-
-│   ├── evaluate.py          # F1 vs gold labels
-
-│   └── retrain.py           # Fine-tune on corrected data
+│   ├── label_batch.py          # Main labeling pipeline
+│   ├── evaluate.py             # F1 vs gold labels
+│   └── retrain.py              # Fine-tune on corrected data
 
 ├── ui/
-
-│   └── annotator_app.py     # Streamlit review interface
+│   └── annotator_app.py        # Streamlit review interface
 
 ├── data/
-
-│   ├── input.csv            # Unlabeled text
-
-│   ├── labeled_candidates.csv # LLM predictions + uncertainty
-
-│   ├── final_labels.csv     # Human-validated
-
-│   └── gold.csv             # Test set
+│   ├── input.csv
+│   ├── labeled_candidates.csv
+│   ├── final_labels.csv
+│   └── gold.csv
 
 └── tests/
-
-└── test_uncertainty.py
+    └── test_uncertainty.py
 
 ## Limitations & Future Work
 
@@ -112,11 +80,6 @@ Cross-model pooling: **Catches systematic bias** (model confidently wrong due to
 - **Future**: Test with qwen/qwen3-32b (cross-family) or domain-specific fine-tuned models
 - **Prompt optimization**: Could use DSPy for automated prompt tuning
 - **Async sampling**: Current impl is sequential; could parallelize across batches
-
-## References
-
-- Wang et al. (2023): "Self-Consistency Improves Chain of Thought Reasoning"
-- Active learning foundations: Freeman et al. (2005)
 
 ## License
 
