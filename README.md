@@ -1,4 +1,4 @@
-# Prompt-Based Data Labeling with Active Learning Loop
+# Uncertainity-Aware Dataset Annotation
 
 An intelligent system that uses LLM prompts to label datasets with high confidence by detecting systematic model bias through cross-model disagreement, prioritizing only genuinely uncertain rows for human review.
 
